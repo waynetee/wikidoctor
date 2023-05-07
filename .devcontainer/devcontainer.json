@@ -20,12 +20,6 @@
 				"src/routes/+page.svelte"
 			]
 		},
-		"portsAttributes": {
-			"5173": {
-				"label": "App",
-				"onAutoForward": "openPreview"
-			}
-		},
 		"vscode": {
 			"settings": {
 				"svelte.enable-ts-plugin": true,
@@ -44,6 +38,12 @@
 				"bradlc.vscode-tailwindcss",
 				"mhutchie.git-graph"
 			]
+		}
+	},
+	"portsAttributes": {
+		"5173": {
+			"label": "App",
+			"onAutoForward": "openPreview"
 		}
 	}
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
