@@ -30,7 +30,8 @@
 				"editor.quickSuggestions": {
 					"strings": "on"
 				},
-				"git.enableSmartCommit": true
+				"git.enableSmartCommit": true,
+				"git.autofetch": true
 			},
 			"extensions": [
 				"formulahendry.auto-rename-tag",
