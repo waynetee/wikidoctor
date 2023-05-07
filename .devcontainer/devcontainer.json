@@ -19,8 +19,10 @@
 			]
 		},
 		"portsAttributes": {
-			"label": "App",
-			"onAutoForward": "openPreview"
+			"5173": {
+				"label": "App",
+				"onAutoForward": "openPreview"
+			}
 		},
 		"vscode": {
 			"settings": {
