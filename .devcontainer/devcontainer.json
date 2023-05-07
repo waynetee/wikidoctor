@@ -9,9 +9,19 @@
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "npm install && npx vite dev --host=0.0.0.0",
+	"postCreateCommand": "npm install",
+	"postAttachCommand": "npx vite dev --host=0.0.0.0",
 	// Configure tool-specific properties.
 	"customizations": {
+		"codespaces": {
+			"openFiles": [
+				"src/routes/+page.svelte"
+			]
+		},
+		"portsAttributes": {
+			"label": "App",
+			"onAutoForward": "openPreview"
+		},
 		"vscode": {
 			"settings": {
 				"svelte.enable-ts-plugin": true,
