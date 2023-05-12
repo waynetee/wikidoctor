@@ -6,7 +6,7 @@
 		<p>Start by exploring:</p>
 		<ul>
 			<li>
-				<code>/src/routes/+layout.svelte</code> - barebones layout, the CSS import order is critical!
+				<code class='code'>/src/routes/+layout.svelte</code> - barebones layout, the CSS import order is critical!
 			</li>
 			<li>
 				<code>/src/app.postcss</code> - minimal css to make the page full screen, may not be relevant

@@ -12,7 +12,7 @@
 	],
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "npm install",
-	"postAttachCommand": "npx vite dev --host=0.0.0.0",
+	"postAttachCommand": "npx run dev",
 	// Configure tool-specific properties.
 	"customizations": {
 		"codespaces": {
