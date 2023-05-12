@@ -29,7 +29,12 @@
 					"strings": "on"
 				},
 				"git.enableSmartCommit": true,
-				"git.autofetch": true
+				"git.autofetch": true,
+				"terminal.integrated.env.linux": {
+					"EDITOR": "code"
+				},
+				"extensions.ignoreRecommendations": true,
+				"diffEditor.renderSideBySide": false
 			},
 			"extensions": [
 				"formulahendry.auto-rename-tag",
