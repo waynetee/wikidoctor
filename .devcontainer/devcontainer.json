@@ -23,7 +23,7 @@
 		"vscode": {
 			"settings": {
 				"svelte.enable-ts-plugin": true,
-				"workbench.colorTheme": "Visual Studio Light",
+				"workbench.colorTheme": "Default Light+",
 				"editor.formatOnSave": true,
 				"editor.quickSuggestions": {
 					"strings": "on"
