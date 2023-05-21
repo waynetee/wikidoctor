@@ -9,6 +9,6 @@
 	<div >
 		<h1>Welcome!</h1>
 		<p>{a} + {b} = {c}</p>
-		<a href="example" >example</a>
+		<a href="heartache" >heartache</a>
 	</div>
 </div>
